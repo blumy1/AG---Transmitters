@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gxl SYSTEM "http://www.gupro.de/GXL/gxl-1.0.dtd">
+<gxl>
+	<graph edgemode="undirected" id="graph">
+		<node id="node1">
+			<attr name="x">
+				<float>12.86</float>
+			</attr>
+			<attr name="y">
+				<float>-9.67</float>
+			</attr>
+			<attr name="radius">
+				<float>3.0</float>
+			</attr>
+		</node>
+		<node id="node2">
+			<attr name="x">
+				<float>-13.15</float>
+			</attr>
+			<attr name="y">
+				<float>-9.09</float>
+			</attr>
+			<attr name="radius">
+				<float>3.0</float>
+			</attr>
+		</node>
+		<node id="node3">
+			<attr name="x">
+				<float>3.61</float>
+			</attr>
+			<attr name="y">
+				<float>-0.09</float>
+			</attr>
+			<attr name="radius">
+				<float>3.0</float>
+			</attr>
+		</node>
+		<node id="node4">
+			<attr name="x">
+				<float>-2.11</float>
+			</attr>
+			<attr name="y">
+				<float>-1.97</float>
+			</attr>
+			<attr name="radius">
+				<float>3.0</float>
+			</attr>
+		</node>
+		<node id="node5">
+			<attr name="x">
+				<float>2.57</float>
+			</attr>
+			<attr name="y">
+				<float>4.29</float>
+			</attr>
+			<attr name="radius">
+				<float>3.0</float>
+			</attr>
+		</node>
+		<edge from="node3" to="node5"/>
+	</graph>
+</gxl>
